@@ -1,0 +1,46 @@
+.headerAbout{
+    background-image: url(../../assets/banco1.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+body{
+    background-color: rgb(70, 130, 180);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    text-align: center;
+    color: black;
+    font-size: medium;
+}
+
+.title{
+    font-size: 5vh;
+    color:#fafafa;
+}
+.title:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    color: rgb(255,215,0);
+}
+section{
+    padding: 9vh 7vh;
+    height: 25vh;
+    width: 80vw;
+    border-radius: 45px;
+    border: 1px solid black;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: rgb(65, 105, 225);
+    font-size: medium;
+    align-content: center;
+    align-items: center;
+    margin-left: 15vh;
+    color:white;
+}
+
+section:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 4px 8px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.8s;
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.NavLink{
+    color : #fafafa;
+    text-decoration: none;
+}
+.NavLink:hover{
+    color: rgb(255,215,0);
+}
+.logo{
+    width: 50px;
+    height: auto; 
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.logo:hover{
+    cursor: pointer;
+}

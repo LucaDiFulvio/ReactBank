@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(70, 130, 180);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    text-align: center;
+    color: black;
+    font-size: medium;
+}
+
+h1{
+    font-size: 5vh;
+    color:#fafafa;
+}
+h1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    color: rgb(255,215,0);
+}
+
+.NewAppointment{
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    }
